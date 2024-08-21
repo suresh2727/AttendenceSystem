@@ -1,0 +1,53 @@
+Attendance System using QRcode  and location 
+
+
+Flow of a system 
+
+admin will generate QRcode(with location and current date and time) -->  user will login  with email and password and scan the QRcode using (user has to allow device location) with location matched with the admin then only present will be added to database; 
+
+
+
+
+
+1)Admin can perform the task (admin portal) 
+
+--> Admin can view each and every student data;
+--> Total number of classes conducted and total number of students present on that day and absent on that day 
+--> Admin can generate QRCode (with current location and date and time)
+
+--> Buttons 
+	1) Total Number of students 
+	2) Total Present (with name)
+	3) Total Absent  (with name)
+	4) Total Number of Classes
+	5) Generate QRcode.
+	6) Current location is important !!!!!!!!!
+	7) Once the admin is created can't be changed 
+	8) On the top right side time and date will be there
+
+
+2) User Registration 
+
+--> 	1) Name
+    	2) Email
+	3) Phone
+	4) ID will be auto generate
+	5) password(encrypt)
+
+3) User login portal
+
+--> User can view there total number of present and absent
+--> User need to provide current location 
+--> Then user can be Present 
+
+--> Buttons 
+	1) Total number class Present with date
+	2) Total Number class absent with date
+	3) Turn on location is mandatory (otherwise it won't work)
+
+	
+
+
+
+
+
